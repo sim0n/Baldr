@@ -14,7 +14,7 @@ Baldr is an anti-cheat base which is meant to elevate development for anti-cheat
 * Medicore packet tracking system
 
 ## Notes
-There are a few check examples already added that showcases what the current system provides
+There are a few check examples already added that showcases what the current system provides. However, they're nowhere finished
 
 ## Usage
 If you're going to make a full fledged anti-cheat using this base and release/sell it then all I ask for is credit
