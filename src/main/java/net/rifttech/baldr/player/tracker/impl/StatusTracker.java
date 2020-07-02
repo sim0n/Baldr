@@ -7,6 +7,7 @@ import net.minecraft.server.v1_8_R3.EntityLiving;
 import net.minecraft.server.v1_8_R3.GenericAttributes;
 import net.rifttech.baldr.player.PlayerData;
 import net.rifttech.baldr.player.tracker.PlayerTracker;
+import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffectType;
@@ -64,7 +65,7 @@ public class StatusTracker extends PlayerTracker {
                         case 2:
                             // We want to handle sprinting by ourselves considering it's shit in bukkit
                             if (!modifier.a().equals(SPRINTING_SPEED_BOOST))
-                                value.updateAndGet(v -> v * 1D + modifier.d());
+                                value.updateAndGet(v -> v + (v * modifier.d()));
 
                             break;
                     }

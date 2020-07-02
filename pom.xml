@@ -85,9 +85,6 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <transformers>
-                                <transformer implementation="org.atteo.classindex.ClassIndexTransformer"/>
-                            </transformers>
                         </configuration>
                     </execution>
                 </executions>
