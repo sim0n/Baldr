@@ -102,7 +102,7 @@ public class MovementTracker extends PlayerTracker {
             return;
 
         double velocityX = Math.abs(entityVelocity.getX() / 8000D);
-        double velocityY = entityVelocity.getY();
+        double velocityY = entityVelocity.getY() / 8000D;
         double velocityZ = Math.abs(entityVelocity.getZ() / 8000D);
 
         velocities.add(new Velocity(velocityX, velocityY, velocityZ));
