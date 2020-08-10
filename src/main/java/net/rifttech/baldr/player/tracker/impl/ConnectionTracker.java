@@ -40,7 +40,7 @@ public class ConnectionTracker extends PlayerTracker {
     }
 
     public void handleTransaction(short id) {
-        if (id < 0)
+        if (id > 0)
             return;
 
         if (transactionTimes.containsKey(id)) {
