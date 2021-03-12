@@ -1,3 +1,6 @@
+## NOTE
+This is old and unmaintained. If you're looking for something updated take a look at [this](https://github.com/sim0n/Nemesis)
+
 ## What is Baldr anti-cheat
 
 Baldr is an anti-cheat base which is meant to elevate development for anti-cheating software
